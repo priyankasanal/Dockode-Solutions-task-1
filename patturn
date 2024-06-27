@@ -1,0 +1,17 @@
+def print_pattern(n_row, n_col):
+    for i in range(n_row):
+        # for the row 
+        for j in range(n_col):
+         # for the column 
+            print("$", end=" ")
+        print()  # will move to next line 
+
+# given use case 1 and 2 .  
+row1, col1 = 4, 7
+row2, col2 = 3, 5
+
+print("Pattern 1:")
+print_pattern(row1, col1)
+
+print("\nPattern 2:")
+print_pattern(row2, col2)
